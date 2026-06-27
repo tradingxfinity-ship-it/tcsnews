@@ -27,7 +27,7 @@ export const posts: Post[] = [
         type: "paragraph",
         text: "But what happens when the deck is stacked against the consumer before the boxes are even sealed? A massive, unfolding scandal has exposed a **multi-million-dollar pipeline** of stolen, backdoored cards that has left the community reeling — proving that real collectors are being systematically robbed of their hard-earned money.",
       },
-      { type: "heading", text: "The Supply Chain: The Schoolteacher Ring Leader" },
+      { type: "heading", text: "The Supply Chain: The School Teacher Ring Leader" },
       {
         type: "paragraph",
         text: "Every major scam needs a source, and this one begins across the border. According to intelligence circulating within the high-end collector community, the true ring leader of the operation is **Jordan Barrera Aldape**.",
