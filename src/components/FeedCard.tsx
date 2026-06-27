@@ -72,10 +72,7 @@ export default function FeedCard({ post, priority = false }: FeedCardProps) {
         </div>
 
         <p className="mt-5 text-xs italic text-white/55">
-          Published {formatDate(post.publishedAt)} · {post.readingTime} min read · By{" "}
-          <span className="font-black uppercase not-italic tracking-wider text-brand-orange">
-            {post.author.name}
-          </span>
+          Published {formatDate(post.publishedAt)} · {post.readingTime} min read
         </p>
 
         <Link href={articleUrl} className="mt-6 block group">

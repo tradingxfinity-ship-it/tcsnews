@@ -1,5 +1,4 @@
 import type { Post } from "@/types";
-import { authors } from "./authors";
 
 export const posts: Post[] = [
   {
@@ -11,7 +10,6 @@ export const posts: Post[] = [
     content: "",
     image: "/posts/garcia-featured.png",
     category: "market-news",
-    author: authors.investigations,
     publishedAt: "2026-06-21",
     readingTime: 10,
     tags: ["Investigation", "Fraud", "ALT", "Card Shows", "Backdoor Hits"],
@@ -202,7 +200,6 @@ export const posts: Post[] = [
     image:
       "https://images.unsplash.com/photo-1551958219-acbc608c6377?auto=format&fit=crop&w=1200&q=80",
     category: "sports-cards",
-    author: authors.mason,
     publishedAt: "2026-06-18",
     readingTime: 8,
     tags: ["NFL", "NBA", "Rookies", "Investing"],
@@ -218,7 +215,6 @@ export const posts: Post[] = [
     image:
       "https://images.unsplash.com/photo-1635805737707-575885ab0820?auto=format&fit=crop&w=1200&q=80",
     category: "pokemon",
-    author: authors.amaya,
     publishedAt: "2026-06-15",
     readingTime: 6,
     tags: ["Pokemon", "Market", "Vintage"],
@@ -233,7 +229,6 @@ export const posts: Post[] = [
     image:
       "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?auto=format&fit=crop&w=1200&q=80",
     category: "one-piece",
-    author: authors.leo,
     publishedAt: "2026-06-12",
     readingTime: 9,
     tags: ["One Piece", "Set Review", "TCG"],
@@ -248,7 +243,6 @@ export const posts: Post[] = [
     image:
       "https://images.unsplash.com/photo-1606166187734-a4cb74079037?auto=format&fit=crop&w=1200&q=80",
     category: "grading",
-    author: authors.priya,
     publishedAt: "2026-06-10",
     readingTime: 11,
     tags: ["PSA", "BGS", "CGC", "Grading"],
@@ -263,7 +257,6 @@ export const posts: Post[] = [
     image:
       "https://images.unsplash.com/photo-1614632537190-23e4146777db?auto=format&fit=crop&w=1200&q=80",
     category: "sports-cards",
-    author: authors.mason,
     publishedAt: "2026-06-08",
     readingTime: 7,
     tags: ["NFL", "Rookies", "Panini"],
@@ -278,7 +271,6 @@ export const posts: Post[] = [
     image:
       "https://images.unsplash.com/photo-1609743522653-52354461eb27?auto=format&fit=crop&w=1200&q=80",
     category: "pokemon",
-    author: authors.amaya,
     publishedAt: "2026-06-05",
     readingTime: 6,
     tags: ["Charizard", "Auctions", "Pokemon"],
@@ -293,7 +285,6 @@ export const posts: Post[] = [
     image:
       "https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&w=1200&q=80",
     category: "market-news",
-    author: authors.jordan,
     publishedAt: "2026-06-02",
     readingTime: 10,
     tags: ["Vintage", "NBA", "Investing"],
@@ -308,7 +299,6 @@ export const posts: Post[] = [
     image:
       "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?auto=format&fit=crop&w=1200&q=80",
     category: "market-news",
-    author: authors.jordan,
     publishedAt: "2026-05-29",
     readingTime: 8,
     tags: ["Beginner", "Guide", "Collecting"],
@@ -323,7 +313,6 @@ export const posts: Post[] = [
     image:
       "https://images.unsplash.com/photo-1542759564-7ccbb6ac450a?auto=format&fit=crop&w=1200&q=80",
     category: "reviews",
-    author: authors.priya,
     publishedAt: "2026-05-26",
     readingTime: 7,
     tags: ["Storage", "Reviews", "Gear"],
@@ -338,7 +327,6 @@ export const posts: Post[] = [
     image:
       "https://images.unsplash.com/photo-1613771404784-3a5686aa2be3?auto=format&fit=crop&w=1200&q=80",
     category: "pokemon",
-    author: authors.amaya,
     publishedAt: "2026-05-22",
     readingTime: 6,
     tags: ["Pokemon", "Hidden Gems", "Investing"],
@@ -353,7 +341,6 @@ export const posts: Post[] = [
     image:
       "https://images.unsplash.com/photo-1612036782180-6f0b6cd846fe?auto=format&fit=crop&w=1200&q=80",
     category: "one-piece",
-    author: authors.leo,
     publishedAt: "2026-05-19",
     readingTime: 8,
     tags: ["One Piece", "Chase Cards", "Collecting"],
@@ -368,7 +355,6 @@ export const posts: Post[] = [
     image:
       "https://images.unsplash.com/photo-1614680376573-df3480f0c6ff?auto=format&fit=crop&w=1200&q=80",
     category: "grading",
-    author: authors.priya,
     publishedAt: "2026-05-16",
     readingTime: 9,
     tags: ["Authentication", "Fakes", "Buying"],

@@ -14,12 +14,6 @@ export interface Category {
   description: string;
 }
 
-export interface Author {
-  name: string;
-  role: string;
-  avatar: string;
-}
-
 export type ContentBlock =
   | { type: "heading"; text: string }
   | { type: "paragraph"; text: string }
@@ -46,7 +40,6 @@ export interface Post {
   body?: ContentBlock[];
   image: string;
   category: CategorySlug;
-  author: Author;
   publishedAt: string;
   readingTime: number;
   tags: string[];

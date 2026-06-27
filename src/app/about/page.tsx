@@ -1,7 +1,5 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Hero from "@/components/Hero";
-import { authors } from "@/data/authors";
 
 export const metadata: Metadata = {
   title: "About",
@@ -59,35 +57,6 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="border-t border-brand-border bg-brand-light-gray py-16 sm:py-20">
-        <div className="mx-auto max-w-container px-4 sm:px-6 lg:px-8">
-          <h2 className="text-center font-display text-3xl font-bold text-brand-black sm:text-4xl">
-            The Team
-          </h2>
-          <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 lg:gap-8">
-            {Object.values(authors).map((a) => (
-              <div
-                key={a.name}
-                className="flex items-center gap-4 rounded-xl bg-white p-5 shadow-card"
-              >
-                <div className="relative h-16 w-16 flex-shrink-0 overflow-hidden rounded-full">
-                  <Image
-                    src={a.avatar}
-                    alt={a.name}
-                    fill
-                    sizes="64px"
-                    className="object-cover"
-                  />
-                </div>
-                <div>
-                  <p className="font-display text-base font-bold text-brand-black">{a.name}</p>
-                  <p className="text-sm text-brand-mid-gray">{a.role}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
     </>
   );
 }

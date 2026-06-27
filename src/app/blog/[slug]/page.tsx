@@ -31,7 +31,6 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       title: post.title,
       description: post.excerpt,
       publishedTime: post.publishedAt,
-      authors: [post.author.name],
       tags: post.tags,
       images: [{ url: post.image, width: 1200, height: 630, alt: post.title }],
     },
@@ -63,7 +62,6 @@ export default async function BlogPostPage({ params }: PageProps) {
     description: post.excerpt,
     image: [post.image],
     datePublished: post.publishedAt,
-    author: { "@type": "Person", name: post.author.name },
     publisher: {
       "@type": "Organization",
       name: "TCS News",
@@ -94,22 +92,6 @@ export default async function BlogPostPage({ params }: PageProps) {
             </p>
 
             <div className="mt-8 flex flex-wrap items-center justify-center gap-x-6 gap-y-3 text-sm text-brand-mid-gray">
-              <div className="flex items-center gap-2">
-                <div className="relative h-9 w-9 overflow-hidden rounded-full">
-                  <Image
-                    src={post.author.avatar}
-                    alt={post.author.name}
-                    fill
-                    sizes="36px"
-                    className="object-cover"
-                  />
-                </div>
-                <div className="text-left">
-                  <p className="font-semibold text-brand-black">{post.author.name}</p>
-                  <p className="text-xs text-brand-mid-gray">{post.author.role}</p>
-                </div>
-              </div>
-              <span className="hidden h-6 w-px bg-brand-border sm:block" />
               <time dateTime={post.publishedAt} className="font-medium">
                 {formatDate(post.publishedAt)}
               </time>
