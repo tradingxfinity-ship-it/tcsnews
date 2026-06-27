@@ -216,7 +216,7 @@ export const posts: Post[] = [
     content:
       "It is not just first-edition Charizard anymore. Modern alt-art chase cards from Scarlet & Violet sets are doubling in three months, and even rough-condition WOTC commons are clearing on eBay at multiples of last year's prices.\n\nWe analyzed twelve months of sales data across PSA, CGC, and raw markets to find the patterns: Japanese exclusives outperforming, sealed product compression, and a new wave of buyers entering from outside the hobby.\n\nIf you have been waiting on the sidelines, this guide explains where the smart entry points are right now — and where prices look stretched.",
     image:
-      "https://images.unsplash.com/photo-1647964158923-21adba70e21d?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1635805737707-575885ab0820?auto=format&fit=crop&w=1200&q=80",
     category: "pokemon",
     author: authors.amaya,
     publishedAt: "2026-06-15",
@@ -261,7 +261,7 @@ export const posts: Post[] = [
     content:
       "The NFL rookie card market is one of the most active corners of the hobby, and choosing the right players and products matters more than ever. We focus on rookies with elite landing spots, strong print runs, and meaningful parallels worth chasing.\n\nThis guide ranks the current crop by floor, ceiling, and liquidity — three metrics that matter far more than hype-driven price discovery. We also flag a few names where the market has gotten ahead of itself.",
     image:
-      "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1614632537190-23e4146777db?auto=format&fit=crop&w=1200&q=80",
     category: "sports-cards",
     author: authors.mason,
     publishedAt: "2026-06-08",
@@ -276,7 +276,7 @@ export const posts: Post[] = [
     content:
       "Charizard remains the king of the Pokémon TCG market, and the last six months of auction results have only widened the gap between the iconic chase cards and everything else.\n\nWe pulled results from Heritage, Goldin, PWCC, and eBay's high-end sales to map out where Charizard premiums are growing, where they are softening, and which adjacent cards are riding the same wave.",
     image:
-      "https://images.unsplash.com/photo-1628961196910-fa84a0ddb98e?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1609743522653-52354461eb27?auto=format&fit=crop&w=1200&q=80",
     category: "pokemon",
     author: authors.amaya,
     publishedAt: "2026-06-05",
@@ -321,7 +321,7 @@ export const posts: Post[] = [
     content:
       "Storage is the most under-discussed part of collecting, and the wrong choice can quietly cost you thousands over the years. PVC damage, edge wear, and surface scratches are all preventable with the right gear.\n\nWe tested the top sleeves, toploaders, binders, and long-term storage boxes from Dragon Shield, Ultra Pro, Cardsavers, Vault X, and more. Inside: our verdict on each product, the ones to skip, and a system that scales from a starter collection to a six-figure portfolio.",
     image:
-      "https://images.unsplash.com/photo-1606503153255-59d8b8b3a496?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1542759564-7ccbb6ac450a?auto=format&fit=crop&w=1200&q=80",
     category: "reviews",
     author: authors.priya,
     publishedAt: "2026-05-26",
@@ -351,7 +351,7 @@ export const posts: Post[] = [
     content:
       "The One Piece TCG has gone from new kid on the block to a top-five global trading card game in under two years. With that growth, a recognizable canon of must-have cards has formed.\n\nWe rank the most desired cards across leaders, characters, and parallels, with current pricing benchmarks and our outlook on each. If you are building a OP TCG showpiece, start here.",
     image:
-      "https://images.unsplash.com/photo-1593814681464-eef5cf1d68b3?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1612036782180-6f0b6cd846fe?auto=format&fit=crop&w=1200&q=80",
     category: "one-piece",
     author: authors.leo,
     publishedAt: "2026-05-19",

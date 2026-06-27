@@ -43,7 +43,7 @@ function ReaderPoll() {
       <SectionHeader label="We Gotta Ask..." action={<span>Powered by TCS</span>} />
       <div className="relative aspect-[16/10] overflow-hidden bg-white/5">
         <Image
-          src="https://images.unsplash.com/photo-1606503153255-59d8b8b3a496?auto=format&fit=crop&w=900&q=80"
+          src="https://images.unsplash.com/photo-1542759564-7ccbb6ac450a?auto=format&fit=crop&w=900&q=80"
           alt="Storage products on a desk"
           fill
           sizes="(min-width: 1024px) 320px, 100vw"
