@@ -3,7 +3,7 @@ import { authors } from "./authors";
 
 export const posts: Post[] = [
   {
-    slug: "garcia-brothers-million-dollar-card-show-scandal",
+    slug: "backdoor-syndicate-million-dollar-trading-card-scam",
     title:
       "The Backdoor Syndicate: How a Multi-Million Dollar Con Is Destroying the Trading Card Hobby and Stealing From Real Collectors",
     excerpt:
